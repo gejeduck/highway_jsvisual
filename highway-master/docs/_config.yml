@@ -1,0 +1,17 @@
+url: https://highway.js.org/
+title: Highway
+description: Highway helps you manage your page transitions
+
+exclude:
+  - package.json
+  - webpack.config.js
+  - Gemfile
+  - Gemfile.lock
+  - .git
+  - .idea
+  - .gitignore
+  - .DS_Store
+  - .sass-cache/
+  - .asset-cache/
+  - node_modules/
+  - src/

@@ -1,0 +1,62 @@
+<!-- Github Banner -->
+<a href="https://github.com/Dogstudio/highway" target="_blank" class="github-banner">
+  <img style="position: fixed; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
+</a>
+
+<!-- Header -->
+<header class="site-header js-site-header">
+  <div class="site-header-inner">
+    <a href="{{ site.url }}" class="site-logo"><img src="{{ site.url }}assets/images/logo_2x.png" /> v2.1.2</a>
+
+    <button class="burger-menu js-toggle-menu">
+      <span class="burger-menu-lines"></span>
+    </button>
+
+    <nav class="site-menu">
+      <ul>
+        <li class="menu-item">
+          <a href="{{ site.url }}" {% if page.url == '/' %}class="is-active"{% endif %}>Introduction</a>
+        </li>
+
+        <li class="menu-item">
+          <a href="{{ site.url }}installation.html" {% if page.url == '/installation.html' %}class="is-active"{% endif %}>Installation</a>
+        </li>
+
+        <li class="menu-item">
+          <a href="{{ site.url }}get-started.html" {% if page.url == '/get-started.html' %}class="is-active"{% endif %}>Get Started</a>
+        </li>
+
+        <li class="menu-item">
+          <a href="{{ site.url }}api.html" {% if page.url == '/api.html' %}class="is-active"{% endif %}>API Reference</a>
+        </li>
+
+        <li class="menu-item menu-parent">
+          <a href="#" {% if page.dir == '/examples/' %}class="is-active"{% endif %}>Examples</a>
+
+          <ul class="menu-child">
+            <li><a href="{{ site.url }}examples/disable.html" {% if page.url == '/examples/disable.html' %}class="is-active"{% endif %}>Disable</a></li>
+            <li><a href="{{ site.url }}examples/events.html" {% if page.url == '/examples/events.html' %}class="is-active"{% endif %}>Events</a></li>
+            <li><a href="{{ site.url }}examples/menu.html" {% if page.url == '/examples/menu.html' %}class="is-active"{% endif %}>Menu</a></li>
+            <li><a href="{{ site.url }}examples/tracking.html" {% if page.url == '/examples/tracking.html' %}class="is-active"{% endif %}>Tracking</a></li>
+            <li><a href="{{ site.url }}examples/transitions.html" {% if page.url == '/examples/transitions.html' %}class="is-active"{% endif %}>Transitions</a></li>
+            <li><a href="{{ site.url }}examples/anchors.html" {% if page.url == '/examples/anchors.html' %}class="is-active"{% endif %}>URL Anchors</a></li>
+            <li><a href="{{ site.url }}examples/parameters.html" {% if page.url == '/examples/parameters.html' %}class="is-active"{% endif %}>URL Parameters</a></li>
+            <li><a href="{{ site.url }}examples/prefetch.html" {% if page.url == '/examples/prefetch.html' %}class="is-active"{% endif %}>Prefetch</a></li>
+          </ul>
+        </li>
+
+        <li class="menu-item">
+          <a href="{{ site.url }}tutorials.html" {% if page.url == '/tutorials.html' %}class="is-active"{% endif %}>Tutorials</a>
+        </li>
+
+        <li class="menu-item">
+          <a href="{{ site.url }}demos.html" {% if page.url == '/demos.html' %}class="is-active"{% endif %}>Demos</a>
+        </li>
+
+        <li class="menu-item menu-item--slack">
+          <a href="https://join.slack.com/t/highway-lib/shared_invite/enQtNDcxMzY5MDc0NDE3LWQyMWMwZjhiNDUxOWVkM2Y0MTkxMTY5ZTU3ZjRmNjU2ZTI3YjAwNGQ2ZTZlYTcyNTBhYWEzMGQyZGFlODY0MjY" target="_blank">Join the Community</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
